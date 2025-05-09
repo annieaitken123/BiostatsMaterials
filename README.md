@@ -2,7 +2,7 @@
 
 > Tools, templates, and utilities for biostatistics workflows, data summaries, and educational materials.
 
-## 📖 Overview
+## Overview
 
 `BiostatsMaterials` is an R package designed to streamline biostatistics analysis workflows, support reproducible reporting, and facilitate teaching through well-documented functions and templates. It includes:
 
@@ -12,7 +12,7 @@
 - Examples of repeated-measures analyses  
 - Educational examples for teaching biostatistics concepts  
 
-## 🛠 Installation
+## Installation
 
 To install the development version of the package from GitHub:
 
@@ -21,7 +21,7 @@ To install the development version of the package from GitHub:
 devtools::install_github("annieaitken123/BiostatsMaterials")
 ```
 
-## 📚 Example Usage
+## Example Usage
 
 ```r
 library(BiostatsMaterials)
@@ -36,7 +36,7 @@ summary_table <- create_summary_table(merged_df, group_var = "Arm", vars = c("ag
 plot_trajectory_variable(merged_df, variable_name = "outcome_score")
 ```
 
-## 📁 Package Structure
+## Package Structure
 
 - `R/` — Core functions
 - `data-raw/` — Scripts to prepare example datasets
@@ -44,15 +44,15 @@ plot_trajectory_variable(merged_df, variable_name = "outcome_score")
 - `man/` — Function documentation
 - `tests/` — Unit tests (optional)
 
-## ✅ Features
+## Features
 
-- 🔄 Data cleaning and merging helpers  
-- 📊 GTSummary and `rstatix`-based reporting  
-- 📈 Group-specific trajectory plotting  
-- 📦 Designed for easy teaching and reproducibility  
-- 🧪 Compatible with tidyverse workflows  
+- Data cleaning and merging helpers  
+- GTSummary and `rstatix`-based reporting  
+- Group-specific trajectory plotting  
+- Designed for easy teaching and reproducibility  
+- Compatible with tidyverse workflows  
 
-## 🔬 Example Functions
+## Example Functions
 
 | Function                 | Description                                      |
 |--------------------------|--------------------------------------------------|
